@@ -16,8 +16,9 @@
     void main() {
 
        String saludo = 'Hola';
-      String nombre = 'Mundo';
-      String frase = '$saludo $nombre!';
+      String mundo = 'Mundo';
+      String frase = '$saludo $mundo!';
+      print(frase);
 
       String nombre = "Lucca"; // tipo y nombre de la variable
       int veces = 1; // tipo y nombre de la variable
