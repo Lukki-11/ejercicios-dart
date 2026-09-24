@@ -1,5 +1,5 @@
 /*Ejercicio 1 de la relación 1
-    archivo: 1hola-mudo.dart
+    archivo: 1hola-mundo.dart
     fecha: 24/09/2026
     Autor :Lucca Maciel Rodríguez Vázquez*/
 
