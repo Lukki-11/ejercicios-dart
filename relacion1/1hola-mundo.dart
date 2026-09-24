@@ -6,9 +6,22 @@
     /*void main() {
       print("Hola mundo");
     }*/
+
+    // Comentarios de una sola línea
+    /*Comentarios de
+    varias líneas
+    */
+
+    /// Comentarios de documentación  
     void main() {
+
+       String saludo = 'Hola';
+      String nombre = 'Mundo';
+      String frase = '$saludo $nombre!';
+
       String nombre = "Lucca"; // tipo y nombre de la variable
       int veces = 1; // tipo y nombre de la variable
       print("Hola mundo, mi nombre es $nombre");
       print("El programa se ha ejecutado ${veces*2-1} vez(es)");// si es una expresion se pone entre llaves se pone entre llaves
+      
     }
