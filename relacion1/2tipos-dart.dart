@@ -28,6 +28,14 @@ void main(){
   List<int> numeros = [1, 2, 3, 4, 5];
   print('La lista de números es: $numeros');
 
+  for (int i=0; i< numeros.length; i++) {
+    print('El número en la posición $i es: ${numeros[i]}');
+  }
+
+
+  // uso de forEach para recorrer la lista de números
+   print('Uso de forEach para recorrer la lista de números');
+  numeros.forEach(print);
 //Uso de Set para almacenar una colección de elementos únicos
   Set<String> frutas = {'manzana', 'plátano', 'naranja'};
   print('El conjunto de frutas es: $frutas');
