@@ -1,22 +1,16 @@
-import 'dart:io';
+
 
 /*Ejercicio 11 de la relación 1
     archivo: 11factorial-num-N
     fecha: 24/09/2026
     Autor :Lucca Maciel Rodríguez Vázquez*/
+void main() {
+  int n = 5;
+  int factorial = 1;
 
-    void main(){
-      stdout.write('Dame un numero:');
+  for (int i = 1; i <= n; i++) {
+    factorial *= i;
+  }
 
-    // Entrada del usuario
-      String? numero=stdin.readLineSync();
-
-      int? numeroN=int.tryParse(numero ?? '');
-
-      if (numeroN == null || numeroN < 0) {
-
-      }
-
-
-    }
-
+  print("El factorial de $n es $factorial");
+}
